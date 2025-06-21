@@ -1,0 +1,36 @@
+{
+  "name": "UMAR PRIVATE",
+  "description": "Whiskey Socket Baileys WhatsApp Bot Fully Loaded With Upgraded With Api`s Created By Umar Rehman",
+  "logo": "https://qu.ax/HlOGU.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": "UMAR-PRIVATE~hbuwy899283yxxxxxxx"
+    },  
+    
+    "ALIVE_IMG": {
+      "description": "you can use this public mongodb url if you have your personal key So you can use him.",
+      "required": true,
+      "value": "https://qu.ax/HlOGU.jpg"
+    },
+
+    "ALIVE_MSG": {
+      "description": "you can use this public mongodb url if you have your personal key So you can use him.",
+      "required": true,
+      "value": "*HI Im Lol*"
+   }
+   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
